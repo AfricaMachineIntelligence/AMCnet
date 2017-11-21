@@ -47,7 +47,8 @@ nd the mean results for all test data instances at every timestep can be display
                         results = np.load('<results_file_name>')
                         print(results['psnr'].mean(axis=0))
                         print(results['ssim'].mean(axis=0))
-This project was inspired by the work that was done by Ruben Villegas and team on the GPU, the we decided to rework the code to be optimized for the CPU.
+This project was inspired by the work that was done by Ruben Villegas and team on the GPU.
+We took it upon ourselves to modernize the orginal MCnet code to be optimized for the CPU.
 # Please note that this project is not complete yet!!!!!
 # References
 
